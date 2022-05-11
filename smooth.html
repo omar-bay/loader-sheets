@@ -1,0 +1,19 @@
+<div class="loader"></div>
+
+<style>
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .loader {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        border-top: 8px solid rgba(0, 0, 0, 1);
+        border-left: 8px solid rgba(0, 0, 0, 1);
+        border-right: 8px solid rgba(0, 0, 0, 0);
+        animation: spin 0.575s infinite linear;
+    }
+</style>
